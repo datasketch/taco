@@ -1,10 +1,12 @@
 {
   "name": "@datasketch/taco",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "main": "dist/taco.esm.js",
   "type": "module",
-  "files": ["dist/taco.js"],
+  "files": [
+    "dist/taco.js"
+  ],
   "scripts": {
     "build": "del-cli dist && rollup -c"
   },
