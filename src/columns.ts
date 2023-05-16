@@ -1,4 +1,6 @@
-function getColumnDefinitions (dictionary) {
+import { Field } from './types.js'
+
+function getColumnDefinitions (dictionary: Field[]) {
   if (!Array.isArray(dictionary)) {
     throw new Error('Dictionary must be an array')
   }
