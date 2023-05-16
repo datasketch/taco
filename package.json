@@ -1,0 +1,26 @@
+{
+  "name": "taco",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/taco.esm.js",
+  "type": "module",
+  "scripts": {
+    "build": "del-cli dist && rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-terser": "^0.4.1",
+    "del-cli": "^5.0.0",
+    "eslint": "^8.40.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-n": "^15.7.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "rollup": "^3.21.7"
+  },
+  "engines": {
+    "node": "18"
+  }
+}

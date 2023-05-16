@@ -1,0 +1,3 @@
+## taco
+
+Tabulator (auto) configuration
