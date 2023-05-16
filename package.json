@@ -4,6 +4,7 @@
   "description": "",
   "main": "dist/taco.esm.js",
   "type": "module",
+  "files": ["dist/taco.js"],
   "scripts": {
     "build": "del-cli dist && rollup -c"
   },
