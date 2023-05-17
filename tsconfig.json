@@ -4,7 +4,9 @@
     "lib": ["es6"],
     "module": "ES2020",
     "rootDir": "src",
-    "declaration": true,                              /* Generate .d.ts files from TypeScript and JavaScript files in your project. */
+    "declaration": true,
+    "declarationDir": "./types",
+    "emitDeclarationOnly": true,
     "outDir": "dist",
     "removeComments": true,
     "esModuleInterop": true,

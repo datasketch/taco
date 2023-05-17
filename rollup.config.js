@@ -6,13 +6,13 @@ export default defineConfig({
   input: 'src/index.ts',
   output: [
     {
-      file: 'dist/taco.esm.min.js',
+      file: 'dist/taco.es.js',
       format: 'es'
     },
     {
       file: 'dist/taco.min.js',
       format: 'iife',
-      name: 'taco'
+      name: 'Taco'
     }
   ],
   plugins: [
