@@ -1,0 +1,17 @@
+[
+  {
+    "id": "title",
+    "label": "Title",
+    "hdType": "Txt"
+  },
+  {
+    "id": "author",
+    "label": "Author",
+    "hdType": "Txt"
+  },
+  {
+    "id": "cover",
+    "label": "Cover",
+    "hdType": "Img"
+  }
+]

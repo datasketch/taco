@@ -6,11 +6,13 @@
   "type": "module",
   "types": "dist/types/index.d.ts",
   "scripts": {
-    "build": "del-cli dist && rollup -c"
+    "build": "del-cli dist && rollup -c",
+    "test": "ava tests/*",
+    "start": "ava --watch"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "David Daza <david@datasketch.co>",
+  "license": "MIT",
   "devDependencies": {
     "@rollup/plugin-terser": "^0.4.1",
     "@rollup/plugin-typescript": "^11.1.1",
@@ -25,7 +27,12 @@
     "rollup": "^3.21.7",
     "typescript": "^5.0.4"
   },
-  "engines": {
-    "node": "18"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/datasketch/taco.git"
+  },
+  "bugs": {
+    "url": "https://github.com/datasketch/taco/issues"
+  },
+  "homepage": "https://github.com/datasketch/taco#readme"
 }

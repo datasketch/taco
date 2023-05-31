@@ -1,0 +1,34 @@
+[
+  {
+    "id": "sepal_length",
+    "label": "Sepal.Length",
+    "hdType": "Num"
+  },
+  {
+    "id": "sepal_width",
+    "label": "Sepal.Width",
+    "hdType": "Num"
+  },
+  {
+    "id": "petal_length",
+    "label": "Petal.Length",
+    "hdType": "Num"
+  },
+  {
+    "id": "petal_width",
+    "label": "Petal.Width",
+    "hdType": "Num"
+  },
+  {
+    "id": "species",
+    "label": "Species",
+    "hdType": "Cat",
+    "format": {
+      "categories": [
+        "setosa",
+        "versicolor",
+        "virginica"
+      ]
+    }
+  }
+]
